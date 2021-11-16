@@ -1,5 +1,6 @@
 package com.spring.jenkins;
 
+
 import static org.junit.Assert.assertEquals;
 
 import org.junit.jupiter.api.Test;
@@ -14,7 +15,8 @@ class SpringJenkinsApplicationTests {
 	@Test
 	public void contextLoads() {
 		logger.info("Tesstcase Executing....");
-	assertEquals(true, true);
+		logger.info("Tesstcase Executing Second....");
+	    assertEquals(true, true);
 	}
 
 }
